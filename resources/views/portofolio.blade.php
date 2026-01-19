@@ -595,7 +595,7 @@
       <!-- Project 1 - Website Design -->
       <div class="project-card">
         <div class="project-image">
-          <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Website Design Project">
+          <img src="9.jpg" alt="Website Design Project">
         </div>
         <div class="project-info">
           <h3>Website Design</h3>
@@ -607,12 +607,24 @@
       <!-- Project 2 - UI/UX Design -->
       <div class="project-card">
         <div class="project-image">
-          <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="UI/UX Design Project">
+          <img src="8.png" alt="UI/UX Design Project">
         </div>
         <div class="project-info">
           <h3>UI/UX Design</h3>
           <p>Membuat antarmuka pengguna yang intuitif dan pengalaman pengguna yang menyenangkan untuk aplikasi mobile.</p>
           <button class="btn" onclick="toggleHiddenProjects('uiuxProjects')">Lihat Detail</button>
+        </div>
+      </div>
+      
+      <!-- Project 3 - Sertifikat -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="sertifikat.jpg" alt="Sertifikat">
+        </div>
+        <div class="project-info">
+          <h3>Sertifikat</h3>
+          <p>pengalaman.</p>
+          <button class="btn" onclick="toggleHiddenProjects('sertifikat')">Lihat Detail</button>
         </div>
       </div>
     </div>
@@ -621,31 +633,31 @@
     <div class="hidden-projects" id="websiteProjects">
       <div class="project-card">
         <div class="project-image">
-          <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="E-commerce Website">
+          <img src="2.jpeg" alt="E-commerce Website">
         </div>
         <div class="project-info">
-          <h3>E-commerce Website</h3>
-          <p>Website toko online dengan fitur keranjang belanja, pembayaran, dan manajemen produk.</p>
+          <h3>Kawal Kebun</h3>
+          <p>projek masa pkl kami.</p>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-image">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Blog Platform">
+          <img src="5.png" alt="Blog Platform">
         </div>
         <div class="project-info">
-          <h3>Blog Platform</h3>
-          <p>Platform blogging dengan editor teks kaya, manajemen konten, dan sistem komentar.</p>
+          <h3>Website Kelas</h3>
+          <p>Website kelas yang kami kerjakan secara bersama sama.</p>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-image">
-          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Company Profile">
+          <img src="6.png" alt="Company Profile">
         </div>
         <div class="project-info">
-          <h3>Company Profile</h3>
-          <p>Website profil perusahaan dengan portfolio, testimoni, dan sistem kontak.</p>
+          <h3>Website Game</h3>
+          <p>Website game yang saya buat bertujuan untuk mempromosikan sebuah game.</p>
         </div>
       </div>
     </div>
@@ -657,7 +669,7 @@
           <img src="Screenshot 2025-09-08 201652.png" alt="Mobile App UI">
         </div>
         <div class="project-info">
-          <h3>Design Spotify </h3>
+          <h3>Design Spotify</h3>
           <p>Desain Spotify mengusung tampilan sederhana, modern, dan intuitif dengan dominasi warna hijau, hitam, dan putih. Ikonnya mudah dikenali, navigasi dibuat praktis, serta tata letak dirancang agar pengalaman mendengarkan musik terasa nyaman dan personal.</p>
         </div>
       </div>
@@ -678,13 +690,13 @@
         </div>
         <div class="project-info">
           <h3>Design Music App</h3>
-          <p>aplikasi pemutar musik dengan tampilan modern dan sederhana, dirancang untuk memudahkan pengguna dalam menikmati, mencari, dan mengatur lagu favorit.</p>
+          <p>Aplikasi pemutar musik dengan tampilan modern dan sederhana, dirancang untuk memudahkan pengguna dalam menikmati, mencari, dan mengatur lagu favorit.</p>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-image">
-          <img src="Poster Ajakan Membaca Buku Ilustratif Biru dan Hijau.png" alt="Dashboard Design">
+          <img src="Poster Ajakan Membaca Buku Ilustratif Biru dan Hijau.png" alt="Poster Design">
         </div>
         <div class="project-info">
           <h3>Poster Membaca Buku</h3>
@@ -694,21 +706,24 @@
 
       <div class="project-card">
         <div class="project-image">
-          <img src="Biru Hijau Ilustrasi Poster Kebersihan Lingkungan.png" alt="Dashboard Design">
+          <img src="Biru Hijau Ilustrasi Poster Kebersihan Lingkungan.png" alt="Poster Design">
         </div>
         <div class="project-info">
           <h3>Poster Kebersihan Lingkungan</h3>
           <p>Poster Kebersihan Lingkungan ini berisi ajakan menjaga kebersihan sekitar dengan pesan singkat dan ilustrasi yang mudah dipahami.</p>
         </div>
       </div>
+    </div>
 
+    <!-- Hidden Projects for Sertifikat -->
+    <div class="hidden-projects" id="sertifikat">
       <div class="project-card">
         <div class="project-image">
-          <img src="WhatsApp Image 2025-09-10 at 11.47.51 AM.jpeg" alt="Dashboard Design">
+          <img src="1.jpeg" alt="Sertifikat">
         </div>
         <div class="project-info">
-          <h3>Smart Home</h3>
-          <p>Desain dashboard admin dengan visualisasi data dan navigasi yang mudah digunakan.</p>
+          <h3>Sertifikat</h3>
+          <p>Praktik Kerja Lapangan di Pusat Penelitian Kelapa Sawit.</p>
         </div>
       </div>
     </div>
@@ -799,12 +814,6 @@
       const projectSection = document.getElementById('project');
       projectSection.scrollIntoView({ behavior: 'smooth' });
     }
-  }
-  
-  // Menampilkan detail project (modal)
-  function showProjectDetail(projectId) {
-    alert('Detail project ' + projectId + ' akan ditampilkan di sini.');
-    // Di sini bisa ditambahkan kode untuk menampilkan modal dengan detail project
   }
   
   // Update menu aktif saat scroll
